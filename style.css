@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(images/pattern-background-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    font-family: red hat display;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#container {
+    width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#container #image img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+}
+
+#content {
+    text-align: center;
+    padding: 0 30px 20px 30px;
+}
+
+#content h1 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#content p {
+    color: hsl(224, 23%, 55%);
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+
+#content_plan {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#left {
+    display: flex;
+    padding-left: 30px;
+}
+
+#left img {
+    margin-right: 15px;
+}
+
+#left #plan_price {
+    padding-top: 5px;
+}
+
+#plan_price #plan {
+    font-weight: 700;
+}
+
+#plan_price #price {
+    color: hsl(224, 23%, 55%);
+}
+
+#right {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+#right a {
+    color: hsl(245, 75%, 52%);
+}
+
+#content button {
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+#content #cancel {
+    font-weight: 700;
+}
